@@ -87,7 +87,7 @@ function init() {
     window.addEventListener('click', closeModal);
 
     // Consume el API que trae la primera página de 14 pokemons y envía el resultado a la función showCards
-    callApi("https://pokeapi.co/api/v2/pokemon?offset=0&limit=14", showCards);
+    callApi("https://pokeapi.co/api/v2/pokemon?offset=0&limit=16", showCards);
 }
 
 //Ejecuta un API que viene en URL y ejecuta el callback con el resultado que devolvió el API
